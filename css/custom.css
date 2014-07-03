@@ -11,26 +11,30 @@ hr {
     width: 95%;
  }
 
+ #home-hr {
+ 	margin-top: 1px;
+ 	margin-bottom: 9px;
+ }
+
+ #social-bar {
+ 	text-align: left;
+ 	font-size: 57px;
+ 	margin-top: 15px;
+ 	padding-left: 50px;
+ }
+
 #social-panel {
 	margin-top: 10px;
 }
 
 #title-panel {
 	text-align: right;
-	margin-bottom: 20px;
 }
-
 
 #title-panel h1 {
 	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
 	font-size: 60px;
-}
-
-#title-panel h2 {
-	font-family: sans-serif;
-	font-size: 24px;
-	margin-top: 7px;
 }
 
 #upcoming-panel {
@@ -41,7 +45,6 @@ hr {
 	padding-bottom: 25px;
 	background: white;
 }
-
 
 .carousel {
 	height:50%;
