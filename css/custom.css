@@ -1,0 +1,69 @@
+html, body {
+	height:100%;
+	font-family: Lato;
+}
+
+hr {
+	text-align: center;
+    border: none;
+    height: 1px;
+    background-color: #333;
+    width: 95%;
+ }
+
+#social-panel {
+	margin-top: 10px;
+}
+
+#title-panel {
+	text-align: right;
+	margin-bottom: 20px;
+}
+
+
+#title-panel h1 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	font-size: 60px;
+}
+
+#title-panel h2 {
+	font-family: sans-serif;
+	font-size: 24px;
+	margin-top: 7px;
+}
+
+#upcoming-panel {
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background: white;
+}
+
+
+.carousel {
+	height:50%;
+}
+
+.item,
+.active,
+.carousel-inner {
+	height:100%;
+}
+
+.fill {
+	width:100%;
+	height:100%;
+	background-position: center;
+	background-size: cover;
+}
+
+.section {
+	margin: 50px 0;
+}
+
+footer {
+	margin: 50px 0;
+}
