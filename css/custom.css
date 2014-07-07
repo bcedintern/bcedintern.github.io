@@ -37,6 +37,26 @@ hr {
 	font-size: 60px;
 }
 
+#title-panel a {
+	color: black;
+}
+
+#fb:hover {
+	color: #4c66a4;
+}
+
+#tw:hover {
+	color: #55acee;
+}
+
+#pt:hover {
+	color: #f12525;
+}
+
+#it:hover {
+	color: #663b22;
+}
+
 #upcoming-panel {
 	text-align: center;
 	margin-top: 25px;
