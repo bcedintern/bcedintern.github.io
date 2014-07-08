@@ -15,7 +15,6 @@ hr {
 
  #home-hr {
  	margin-top: 7px;
- 	margin-bottom: 15px;
  }
 
  #social-bar {
@@ -27,6 +26,7 @@ hr {
 
 #title-panel {
 	text-align: right;
+	background-color: yellow;
 }
 
 #title-panel h1 {
@@ -65,9 +65,9 @@ hr {
 }
 
 #main-page {
-	margin-left: 120px;
-	margin-right: 120px;
-	background-color: rgb(243, 243, 243);
+	margin-left: 70px;
+	margin-right: 70px;
+	background-color: yellow;
 }
 
 #news-bar {
