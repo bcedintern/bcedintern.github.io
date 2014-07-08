@@ -187,7 +187,12 @@
 
     <nav class="navbar navbar-inverse">            
         <div id = "news-bar">
-            <marquee id = "feed">THIS TEXT WILL SCROLL FROM LEFT TO RIGHT</marquee>
+            <!-- Important News -->
+            <marquee id = "feed" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
+                <a href="#">THIS TEXT WILL SCROLL FROM LEFT TO RIGHT</a>
+            </marquee>
+
+            <!-- Facebook Like/Share -->
             <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
         </div>
     </nav>
