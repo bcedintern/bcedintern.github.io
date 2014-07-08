@@ -63,7 +63,18 @@ hr {
 }
 
 #it:hover {
-	color: #a2572d;
+	color: #4b1b00;
+}
+
+#facebook-like {
+	text-align: left;
+	padding-top: 5px;
+}
+
+
+#info-panel {
+	margin-left: 40px;
+	margin-right: 40px
 }
 
 #calendar-panel {
@@ -75,10 +86,6 @@ hr {
 	background: white;
 }
 
-#info-panel {
-	margin-left: 40px;
-	margin-right: 40px
-}
 
 #slideshow { 
     margin: 50px auto; 

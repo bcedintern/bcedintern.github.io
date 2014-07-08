@@ -33,9 +33,12 @@
       var js, fjs = d.getElementsByTagName(s)[0];
       if (d.getElementById(id)) return;
       js = d.createElement(s); js.id = id;
-      js.src = "http://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
+
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
 
 
 
@@ -182,22 +185,38 @@
         </a>
     </div>
 
-    <nav class="navbar navbar-inverse"></nav>
+    <nav class="navbar navbar-inverse">            
+        <div id = "facebook-like">
+            <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
+        </div>
+    </nav>
 
     <!-- Facebook Like Bar -->
     <div id = "facebook-panel">
         <div class="container">
-            <div class="fb-like" data-href="https://www.facebook.com/BergenGov" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
+
         </div>
     </div>
 
-    <div id = "calendar-panel">
+    <!-- Welcome Panel -->
+    <div id = "welcome-panel">
         <div class = "container">
-            <div id="upto-calendar-container-1GHOKO" class="upto-calendar-plugin"><script>!function(c,b,a){function d(h){var e=document.getElementById("upto-calendar-container-"+c),f=document.createElement("SCRIPT"),g="http://upto.com/js/embed.js";f.onreadystatechange=function(){if(f.readyState==="loaded"||f.readyState==="complete"){f.onreadystatechange=null;h()}};f.onload=function(){h()};f.setAttribute("src",g);e.parentNode.insertBefore(f,e)}d(function(){upto.init(c,b,a)})}("1GHOKO",["cZdO"],{"template":"2"});</script></div>
+            <div class = "row">
+                <h1>Welcome to Bergen County</h1>
+                <div class="col-md-6">
+                    <p>Home to nearly 200 arts and history organizations, 9,000 acres of parkland, and a variety of shopping and entertainment destinations, Bergen County is a great place to explore on your next vacation. Whether you’re looking for an outdoor adventure, a unique shopping experience, or a chance to view American history and culture from a first-hand perspective, you will find exactly what you’re looking for in Bergen County. Check out the links on the left to see what we have to offer you and your family, and discover why Bergen County is the place where you can have it all!</p>
+                </div>
+                <div class="col-md-6">
+                    <!-- Twitter Feed -->
+                    <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/bcedintern" data-widget-id="486552165339500544">Tweets by @bcedintern</a>
+                </div>
+            </div>
         </div>
     </div>
 
 
+
+    <!-- Restaurant Panel -->
     <div id = "info-panel">
         <div class = "container">
             <div class = "row">
@@ -218,6 +237,13 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <!-- Calendar -->
+    <div id = "calendar-panel">
+        <div class = "container">
+            <div id="upto-calendar-container-1GHOKO" class="upto-calendar-plugin"><script>!function(c,b,a){function d(h){var e=document.getElementById("upto-calendar-container-"+c),f=document.createElement("SCRIPT"),g="http://upto.com/js/embed.js";f.onreadystatechange=function(){if(f.readyState==="loaded"||f.readyState==="complete"){f.onreadystatechange=null;h()}};f.onload=function(){h()};f.setAttribute("src",g);e.parentNode.insertBefore(f,e)}d(function(){upto.init(c,b,a)})}("1GHOKO",["cZdO"],{"template":"2"});</script></div>
         </div>
     </div>
 
