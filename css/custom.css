@@ -69,11 +69,14 @@ hr {
 #news-bar {
 	text-align: left;
 	padding-top: 8px;
-	padding-left: 5px;
+	padding-left: 10px;
 	font-family: 'Lato', sans-serif;
 	color: white;
 }
 
+#feed {
+	width: 400px;
+}
 
 #info-panel {
 	margin-left: 40px;
