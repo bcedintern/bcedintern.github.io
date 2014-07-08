@@ -1,6 +1,6 @@
 html, body {
 	height:100%;
-	font-family: Lato;
+	font-family: 'Lato', sans-serif;
 }
 
 hr {
@@ -66,9 +66,12 @@ hr {
 	color: #4b1b00;
 }
 
-#facebook-like {
+#news-bar {
 	text-align: left;
-	padding-top: 5px;
+	padding-top: 8px;
+	padding-left: 5px;
+	font-family: 'Lato', sans-serif;
+	color: white;
 }
 
 
