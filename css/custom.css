@@ -1,6 +1,8 @@
 html, body {
 	height:100%;
 	font-family: 'Lato', sans-serif;
+	width: auto !important;
+	overflow-x: hidden !important;
 }
 
 hr {
