@@ -94,6 +94,12 @@ hr {
 	text-decoration: underline;
 }
 
+#facebook-like {
+	text-align: right;
+	padding-top: 5px;
+	padding-right: 5px;
+}
+
 #info-panel {
 	margin-left: 40px;
 	margin-right: 40px
