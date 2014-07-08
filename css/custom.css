@@ -25,10 +25,6 @@ hr {
  	padding-left: 50px;
  }
 
-#facebook-panel {
-	margin-top: 10px;
-}
-
 #title-panel {
 	text-align: right;
 }
@@ -96,8 +92,8 @@ hr {
 
 #facebook-like {
 	text-align: right;
-	padding-top: 5px;
-	padding-right: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
 }
 
 #info-panel {
