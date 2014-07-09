@@ -7,45 +7,17 @@ html, body {
 
 hr {
 	text-align: center;
-    border: none;
-    height: 1px;
-    background-color: #333;
-    width: 95%;
- }
-
- #home-hr {
- 	margin-top: 7px;
- }
-
- #social-bar {
- 	text-align: left;
- 	font-size: 65px;
- 	margin-top: 20px;
- 	padding-left: 50px;
- }
-
-#title-panel {
-	text-align: right;
-	background-color: yellow;
+	border: none;
+	height: 1px;
+	background-color: #333;
+	width: 95%;
 }
 
-#title-panel h1 {
-	font-family: 'Oswald', sans-serif;
-	font-weight: bold;
-	font-size: 60px;
-	margin-bottom: 5px;
-}
-
-#title-panel h2 {
-	font-family: 'Oswald', sans-serif;
-	font-weight: lighter;
-	font-size: 18px;
+#social-bar {
+	text-align: left;
+	font-size: 70px;
+	padding-left: 50px;
 	margin-top: 5px;
-	color: #666666
-}
-
-#title-panel a {
-	color: black;
 }
 
 #fb:hover {
@@ -64,17 +36,39 @@ hr {
 	color: #4b1b00;
 }
 
-#main-page {
-	margin-left: 70px;
-	margin-right: 70px;
-	background-color: yellow;
+#title-panel {
+	text-align: right;
+	background-color: #e7e7e7;
+	font-family: 'Oswald', sans-serif;
+	padding-bottom: 5px;
+}
+
+#title-panel h1 {
+	font-weight: bold;
+	font-size: 60px;
+	margin-bottom: 5px;
+}
+
+#title-panel h2 {
+	font-weight: lighter;
+	font-size: 18px;
+	margin-top: 5px;
+	color: #666666
+}
+
+#title-panel a {
+	color: black;
+}
+
+#content {
+	margin-left: 50px;
+	margin-right: 50px;
+	background-color: #e7e7e7;
 }
 
 #news-bar {
 	text-align: right;
-	padding-top: 8px;
-	padding-left: 10px;
-	font-family: 'Oswald', sans-serif;
+	font-family: sans-serif;
 	text-transform: uppercase;
 	color: white;
 	padding-left: 15px;
@@ -98,7 +92,7 @@ hr {
 
 #facebook-like {
 	text-align: left;
-	padding-top: 10px;
+	padding-top: 8px;
 	padding-left: 15px;
 }
 
@@ -116,24 +110,25 @@ hr {
 	background: white;
 }
 
-
+/* Restaurant Slideshow */
 #slideshow { 
-    margin: 50px auto; 
-    position: relative; 
-    width: 260px; 
-    height: 260px; 
-    padding: 10px; 
-    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+	margin: 50px auto; 
+	position: relative; 
+	width: 260px; 
+	height: 260px; 
+	padding: 10px; 
+	box-shadow: 0 0 20px rgba(0,0,0,0.4); 
 }
 
 #slideshow > div { 
-    position: absolute; 
-    top: 10px; 
-    left: 10px; 
-    right: 10px; 
-    bottom: 10px; 
+	position: absolute; 
+	top: 10px; 
+	left: 10px; 
+	right: 10px; 
+	bottom: 10px; 
 }
 
+/* Carousel */
 .carousel {
 	height:50%;
 }
