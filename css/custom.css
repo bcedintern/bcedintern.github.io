@@ -107,6 +107,10 @@ hr {
 	margin-right: 40px
 }
 
+#info-panel h4 {
+	font-size: 14px;
+}
+
 #twitter-feed {
 	text-align: right;
 }
@@ -127,10 +131,10 @@ hr {
 
 /* Restaurant Slideshow */
 #slideshow { 
-	margin: 50px auto; 
+	margin-left: 95px;
 	position: relative; 
-	width: 260px; 
-	height: 260px; 
+	width: 350px; 
+	height: 350px; 
 	padding: 10px; 
 	box-shadow: 0 0 20px rgba(0,0,0,0.4); 
 }
