@@ -230,13 +230,18 @@
             <div class = "container">
                 <div class = "row">
                     <div class="col-md-5">
-                        <p>Home to nearly 200 arts and history organizations, 9,000 acres of parkland, and a variety of shopping and entertainment destinations, Bergen County is a great place to explore on your next vacation. Whether you’re looking for an outdoor adventure, a unique shopping experience, or a chance to view American history and culture from a first-hand perspective, you will find exactly what you’re looking for in Bergen County.</p>
+                        <div id = "description">
+                            <p>Home to nearly 200 arts and history organizations, 9,000 acres of parkland, and a variety of shopping and entertainment destinations, Bergen County is a great place to explore on your next vacation. Whether you’re looking for an outdoor adventure, a unique shopping experience, or a chance to view American history and culture from a first-hand perspective, you will find exactly what you’re looking for in Bergen County.</p>
+                        </div>
                     </div>
                     <div class="col-md-6">
                         <!-- Twitter Feed -->
-                        <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/bcedintern" data-widget-id="486552165339500544">Tweets by @bcedintern</a>
+                        <div id = "twitter-feed">
+                            <a class="twitter-timeline" href="https://twitter.com/bcedintern" data-widget-id="486916568861769728">Tweets by @bcedintern</a>
+                        </div>
                     </div>
                 </div>
+                <hr>
             </div>
         </div>
 
@@ -298,13 +303,7 @@
 
     <!-- Facebook Script --> 
     <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
+    <script>(function(d,s,id){varjs,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";fjs.parentNode.insertBefore(js,fjs);}(document,'script','facebook-jssdk'));</script>
 
     <!-- Twitter Script --> 
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
@@ -314,3 +313,4 @@
 </body>
 
 </html>
+
