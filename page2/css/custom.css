@@ -69,7 +69,7 @@ body {
 
 @media screen and (max-width: 475px) {
 	.banner {
-		padding: 0cm 0cm 0cm 0cm;
+		padding-top: 15px;
 	}	
 
 	.banner > a > h1 {
