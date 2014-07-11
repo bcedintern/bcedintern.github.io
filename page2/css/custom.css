@@ -5,7 +5,7 @@ body {
 	margin: 0 auto;
 }
 
-#header {
+.header {
 	width: 100%;
 	height: 20px;
 	text-align: center;
@@ -16,22 +16,22 @@ body {
 	color: white;
 }
 
-#header > p > a {
+.header > p > a {
 	text-decoration: none;
 	color: inherit;
 }
 
-#header > p > a:hover {
+.header > p > a:hover {
 	text-decoration: underline;
 }
 
 @media screen and (max-width: 850px) {
-	#header p {
+	.header > p {
 		visibility: hidden;
 	}
 }
 
-#banner {
+.banner {
 	width: 100%;
 	height: 100px;
 	background-color: rgba(36, 36, 92, 0.7);
@@ -42,7 +42,7 @@ body {
 	text-align: right;
 }
 
-#banner h1 {
+.banner > a > h1 {
 	font-weight: bold;
 	font-family: 'Oswald', sans-serif;
 	font-size: 60px;
@@ -50,8 +50,14 @@ body {
 	color: white;
 }
 
+.banner > a > h1:hover {
+	color: #f9da24;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
 @media screen and (max-width: 768px) {
-	#banner {
+	.banner {
 		text-align: center;
 		padding-left: 0px;
 		padding-right: 0px;
@@ -59,7 +65,7 @@ body {
 		padding-bottom: 0px;
 	}
 
-	#banner h1 {
+	.banner > a > h1 {
 		font-size: 30px;
 	}
 }
@@ -107,7 +113,7 @@ body {
     }
 }
 
-#banner2 {
+.banner2 {
 	position: absolute;
 	z-index: 2;
 	top: 470px;
@@ -117,26 +123,26 @@ body {
 	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.78);
 }
 
-#logo {
+.logo {
 	position: absolute;
 	z-index: 3;
 	top: 200px;
 	left: 65%;
 }
 
-#logo > img {
+.logo > img {
 	height: 250px;
 	width: 250px;
 }
 
 @media screen and (max-width: 768px) {
-	#logo {
+	.logo {
 		visibility: hidden;
 	}
 }
 
 /* Main Slideshow */
-#slideshow { 
+.slideshow { 
 	position: absolute; 
 	width: 100%; 
 	height: 500px; 
@@ -144,17 +150,17 @@ body {
 	color: white;
 }
 
-#slideshow > div { 
+.slideshow > div { 
 	position: absolute; 
 	width: 100%;
 }
 
-#slideshow > div > a > img {
+.slideshow > div > a > img {
     width: 100%;
 	height: 500px;
 }
 
-#content-pane {
+.content-pane {
 	position: absolute;
 	width: 80%;
 	height: 500px;
@@ -164,4 +170,26 @@ body {
 	margin-top: 500px;
 	background-color: white;
 	box-shadow: 21px 10px 71px 22px rgba(0,0,0,0.75);
+}
+
+.content-pane #welcome-panel {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.content-pane #welcome-panel h1 {
+	text-transform: uppercase;
+	font-size: 80px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.content-pane hr {
+	border-top: 5px solid black;
+	width: 90%;
+}
+
+@media screen and (max-width: 475px) {
+	.content-pane #welcome-panel h1 {
+		font-size: 24px;
+	}
 }
