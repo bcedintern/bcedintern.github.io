@@ -2,7 +2,6 @@ body {
 	background-color: #e7e7e7;
 	overflow-x: hidden !important;
 	font-family: 'Lato', sans-serif;
-	min-width: 960px;
 	margin: 0 auto;
 }
 
@@ -17,25 +16,30 @@ body {
 	color: white;
 }
 
-#header > a {
+#header > p > a {
 	text-decoration: none;
 	color: inherit;
 }
 
-#header > a:hover {
+#header > p > a:hover {
 	text-decoration: underline;
+}
+
+@media screen and (max-width: 850px) {
+	#header p {
+		visibility: hidden;
+	}
 }
 
 #banner {
 	width: 100%;
 	height: 100px;
 	background-color: rgba(36, 36, 92, 0.7);
-	position: fixed;
+	position: absolute;
 	z-index: 1;
 	padding-right: 50px;
 	padding-bottom: 30px;
 	text-align: right;
-	min-width: 600px;
 }
 
 #banner h1 {
@@ -46,10 +50,24 @@ body {
 	color: white;
 }
 
+@media screen and (max-width: 768px) {
+	#banner {
+		text-align: center;
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-top: 10px;
+		padding-bottom: 0px;
+	}
+
+	#banner h1 {
+		font-size: 30px;
+	}
+}
+
 .navbar-inverse {
-	position: fixed;
+	position: absolute;
 	top: 120px;
-	z-index: 2;
+	z-index: 4;
 	width: 100%;
 	border: none;
 	border-radius: 0px;
@@ -72,6 +90,12 @@ body {
 	padding-right: 20px;	
 }
 
+@media (max-width: 767px) {
+	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+		color: #f9da24;
+	}
+}
+
 @media (min-width: 768px) {
     .navbar .navbar-nav {
         display: inline-block;
@@ -84,19 +108,36 @@ body {
 }
 
 #banner2 {
-	position: fixed;
-	z-index: 3;
+	position: absolute;
+	z-index: 2;
 	top: 470px;
 	width: 100%;
 	height: 50px;
 	background-color: rgba(4, 10, 73, 0.9);
 	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.78);
+}
 
+#logo {
+	position: absolute;
+	z-index: 3;
+	top: 200px;
+	left: 65%;
+}
+
+#logo > img {
+	height: 250px;
+	width: 250px;
+}
+
+@media screen and (max-width: 768px) {
+	#logo {
+		visibility: hidden;
+	}
 }
 
 /* Main Slideshow */
 #slideshow { 
-	position: fixed; 
+	position: absolute; 
 	width: 100%; 
 	height: 500px; 
 	z-index: -1;
@@ -111,4 +152,16 @@ body {
 #slideshow > div > a > img {
     width: 100%;
 	height: 500px;
+}
+
+#content-pane {
+	position: absolute;
+	width: 80%;
+	height: 500px;
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 500px;
+	background-color: white;
+	box-shadow: 21px 10px 71px 22px rgba(0,0,0,0.75);
 }
