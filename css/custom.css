@@ -175,13 +175,13 @@ p {
 .content-pane {
 	position: absolute;
 	width: 80%;
-	height: 1200px;
 	text-align: center;
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-top: 500px;
 	background-color: #ffffff;
 	box-shadow: 21px 10px 71px 22px rgba(0,0,0,0.75);
+	z-index: -100;
 }
 
 .content-pane hr {
@@ -252,6 +252,15 @@ p {
 	font-size: 28px;
 }
 
+@media screen and (max-width: 475px) {
+	.social-tab {
+		height: 70px;
+		box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+		font-size: 10px;	
+		text-align: center;
+	}
+}
+
 #social-connect > a:hover {
 	text-decoration: none;
 }
@@ -260,6 +269,14 @@ p {
 	height: 75px;
 	font-size: 32px;
 	box-shadow: 15px 15px 20px 0px rgba(0,0,0,0.75);
+}
+
+@media screen and (max-width: 475px) {
+	.social-tab:hover {
+		height: 70px;
+		font-size: 12px;
+		box-shadow: 15px 15px 20px 0px rgba(0,0,0,0.75);
+	}
 }
 
 #facebook {
@@ -281,4 +298,12 @@ p {
 #social-icon {
 	font-size: 64px;
 	margin-left: 20px;
+}
+
+@media screen and (max-width: 475px) {
+	#social-icon {
+		font-size: 34px;
+		margin-top: 10px;
+		margin-left: 10px;
+	}
 }
