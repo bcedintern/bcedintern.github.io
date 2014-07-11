@@ -69,7 +69,7 @@ body {
 
 @media screen and (max-width: 475px) {
 	.banner {
-		padding-top: 25px;
+		padding: 0cm 0cm 0cm 0cm;
 	}	
 
 	.banner > a > h1 {
@@ -77,11 +77,6 @@ body {
 	}
 }
 
-@media screen and (max-width: 475px) {
-	.banner {
-		padding: 0cm 0cm 0cm 0cm;
-	}	
-}
 
 .navbar-inverse {
 	position: absolute;
