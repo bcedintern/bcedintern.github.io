@@ -189,6 +189,7 @@ p {
 	height: 500px;
 }
 
+/* Main Content Pane */
 .content-pane {
 	position: absolute;
 	width: 80%;
@@ -202,7 +203,7 @@ p {
 }
 
 .content-pane hr {
-	border-top: 5px solid #525252;
+	border-top: 3px solid #525252;
 	width: 90%;
 
 }
@@ -267,17 +268,33 @@ p {
 }
 
 .restaurant-panel {
-	text-align: left;
-	padding-left: 20px;
 }
 
 .restaurant-panel h1 {
 	text-transform: uppercase;
-	font-size: 50px;
+	font-size: 40px;
 	font-family: 'Oswald', sans-serif;
+	margin: 0px auto;
 }
 
 .restaurant-panel h3 {
-	font-size: 40px;
-	font-family: 'Open Sans' sans-serif;
+
+}
+
+/* Restaurant Slideshow */
+.restaurant-slideshow { 
+    position: relative; 
+    margin: 25px auto;
+    width: 240px; 
+    height: 240px; 
+    padding: 10px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+.restaurant-slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
 }

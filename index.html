@@ -150,7 +150,7 @@
 
                     <!-- Social Connect Tabs -->
                     <div class="col-md-6">
-                        <div id = "social-connect">
+                        <div class = "social-connect">
                             <h1>Connect With Us!</h1>
                             <a href="www.facebook.com">
                                 <img class = "social-tab" src = "img/icons/facebook-icon.png">
@@ -177,11 +177,37 @@
 
             <div class="restaurant-panel">
                 <div class = "row">
-                    <p><h1>Restaurant of the Month:<h3>Axia Taverna</h3></h1></p>
-                    
-                    <hr>
+                    <!-- Restaurant Header and Pictures -->
+                    <div class="col-md-6">
+                        <div class = "restaurant-header">
+                            <h1>Restaurant of the Week:</h1>
+                            <div class="restaurant-slideshow">
+                               <div>
+                                 <img src="http://farm6.static.flickr.com/5224/5658667829_2bb7d42a9c_m.jpg">
+                               </div>
+                               <div>
+                                 <img src="http://farm6.static.flickr.com/5230/5638093881_a791e4f819_m.jpg">
+                               </div>
+                               <div>
+                                 Pretty cool eh? This slide is proof the content can be anything.
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Restaurant Name and Description -->
+                    <div class="col-md-6">
+                        <div class = "restaurant-info">
+                            <h1><b>The Park West Tavern</b></h1><br>
+                            <p>OK, maybe it's not a total surprise. When Park West Tavern opened three years ago, serving up its flavorful burgers with house-made ketchup, it was clear that it was not your average bar. The owners, who are also behind the well-regarded Park Steakhouse in Park Ridge, thought Ridgewood needed a restaurant with an upscale but still laid-back atmosphere, a benchmark bar and a familiar American menu with chef touches: I rated it 2.5 stars. - See more at: http://www.northjersey.com/food-and-dining-news/restaurant-reviews/beer-with-a-haute-chaser-1.1049906#sthash.zWEv2iVI.dpuf</p>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+            <br><br><br><br><br>
+
+
         </div>
     </div>
 
@@ -192,7 +218,10 @@
     <script src="js/bootstrap.js"></script>
 
     <!-- Slideshow Script -->
-	<script>$("#slideshow > div:gt(0)").hide();setInterval(function(){$('#slideshow > div:first').fadeOut(500).next().fadeIn(500).end().appendTo('#slideshow');},7000);</script>
+	<script>$(".slideshow > div:gt(0)").hide();setInterval(function(){$('.slideshow > div:first').fadeOut(500).next().fadeIn(500).end().appendTo('.slideshow');},7000);</script>
+
+    <!-- Restaurant Slideshow -->
+    <script>$(".restaurant-slideshow > div:gt(0)").hide();setInterval(function(){$('.restaurant-slideshow > div:first').fadeOut(500).next().fadeIn(500).end().appendTo('.restaurant-slideshow');},7000);</script>
 
     <!-- Calendar Script -->
     <script>!function(c,b,a){function d(h){var e=document.getElementById("upto-calendar-container-"+c),f=document.createElement("SCRIPT"),g="http://upto.com/js/embed.js";f.onreadystatechange=function(){if(f.readyState==="loaded"||f.readyState==="complete"){f.onreadystatechange=null;h()}};f.onload=function(){h()};f.setAttribute("src",g);e.parentNode.insertBefore(f,e)}d(function(){upto.init(c,b,a)})}("1GHOKO",["cZdO"],{"template":"3"});</script>
