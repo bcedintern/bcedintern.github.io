@@ -36,17 +36,17 @@ p {
 	color: #ffffff;
 }
 
-.header > p > a {
+.header p a {
 	text-decoration: none;
 	color: inherit;
 }
 
-.header > p > a:hover {
+.header p a:hover {
 	text-decoration: underline;
 }
 
 @media screen and (max-width: 850px) {
-	.header > p {
+	.header p {
 		visibility: hidden;
 	}
 }
@@ -62,7 +62,7 @@ p {
 	text-align: right;
 }
 
-.banner > a > h1 {
+.banner a h1 {
 	font-weight: bold;
 	font-family: 'Oswald', sans-serif;
 	font-size: 60px;
@@ -70,7 +70,7 @@ p {
 	color: #ffffff;
 }
 
-.banner > a > h1:hover {
+.banner a h1:hover {
 	color: #f9da24;
 	font-weight: bolder;
 	text-decoration: none;
@@ -82,7 +82,7 @@ p {
 		padding: 0cm 0cm 0cm 0cm;
 	}
 
-	.banner > a > h1 {
+	.banner a h1 {
 		font-size: 50px;
 	}
 }
@@ -92,7 +92,7 @@ p {
 		padding-top: 15px;
 	}	
 
-	.banner > a > h1 {
+	.banner a h1 {
 		font-size: 30px;
 	}
 }
@@ -110,21 +110,21 @@ p {
 	font-size: 16px;
 }
 
-.navbar-inverse .navbar-nav > li > a {
+.navbar-inverse .navbar-nav li a {
 	color: #f9da24;
 }
 
-.navbar-inverse .navbar-nav > li > a:hover {
+.navbar-inverse .navbar-nav li a:hover {
 	color: #ffffff;
 }
 
-.navbar-nav > li > a { 
+.navbar-nav li a { 
 	padding-left: 20px;
 	padding-right: 20px;	
 }
 
 @media (max-width: 767px) {
-	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+	.navbar-inverse .navbar-nav .open .dropdown-menu li a {
 		color: #f9da24;
 	}
 }
@@ -157,7 +157,7 @@ p {
 	left: 65%;
 }
 
-.logo > img {
+.logo img {
 	height: 250px;
 	width: 250px;
 }
@@ -179,12 +179,12 @@ p {
 	color: #ffffff;
 }
 
-.slideshow > div { 
+.slideshow div { 
 	position: absolute; 
 	width: 100%;
 }
 
-.slideshow > div > a > img {
+.slideshow div a img {
     width: 100%;
 	height: 500px;
 }
@@ -267,34 +267,38 @@ p {
 	}
 }
 
-.restaurant-panel {
+.restaurant-panel p {
+	text-align: left;
+	font-size: 15px;
 }
 
 .restaurant-panel h1 {
 	text-transform: uppercase;
 	font-size: 40px;
 	font-family: 'Oswald', sans-serif;
-	margin: 0px auto;
-}
-
-.restaurant-panel h3 {
-
+	margin-top: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
 }
 
 /* Restaurant Slideshow */
 .restaurant-slideshow { 
     position: relative; 
     margin: 25px auto;
-    width: 240px; 
-    height: 240px; 
+    width: 360px; 
+    height: 310px; 
     padding: 10px; 
     box-shadow: 0 0 20px rgba(0,0,0,0.4); 
 }
 
-.restaurant-slideshow > div { 
+.restaurant-slideshow div { 
     position: absolute; 
-    top: 10px; 
-    left: 10px; 
-    right: 10px; 
-    bottom: 10px; 
+
+}
+
+.restaurant-header p {
+	text-align: left;
+	font-size: 12px;
+	margin-left: 10px;
 }
