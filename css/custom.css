@@ -1,3 +1,4 @@
+/* Entire Page CSS */
 body {
 	background-color: #e7e7e7;
 	overflow-x: hidden;
@@ -11,9 +12,9 @@ p {
 
 .grayscale{ 
     filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
-    filter: gray;  /* For IE 6 - 9 */
-    -webkit-transition: all .6s ease;  /* Transition for Webkit browsers */
+    -webkit-filter: grayscale(100%);
+    filter: gray;
+    -webkit-transition: all .6s ease;
 }
 
 .grayscale:hover { 
@@ -38,7 +39,7 @@ p {
 	}
 }
 
-
+/* Header CSS */
 .header {
 	width: 100%;
 	height: 20px;
@@ -59,12 +60,7 @@ p {
 	text-decoration: underline;
 }
 
-@media screen and (max-width: 850px) {
-	.header p {
-		visibility: hidden;
-	}
-}
-
+/* Title Banner CSS */
 .banner {
 	width: 100%;
 	height: 100px;
@@ -90,27 +86,7 @@ p {
 	text-decoration: none;
 }
 
-@media screen and (max-width: 768px) {
-	.banner {
-		text-align: center;
-		padding: 0cm 0cm 0cm 0cm;
-	}
-
-	.banner a h1 {
-		font-size: 50px;
-	}
-}
-
-@media screen and (max-width: 475px) {
-	.banner {
-		padding-top: 15px;
-	}	
-
-	.banner a h1 {
-		font-size: 30px;
-	}
-}
-
+/* Navbar CSS */
 .navbar-inverse {
 	position: absolute;
 	top: 120px;
@@ -166,6 +142,7 @@ p {
 	margin-left: 0px;
 }
 
+/* Empty Banner CSS */
 .banner2 {
 	position: absolute;
 	z-index: 2;
@@ -176,6 +153,7 @@ p {
 	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.78);
 }
 
+/* NJ Seal */
 .logo {
 	position: absolute;
 	z-index: 3;
@@ -186,14 +164,6 @@ p {
 .logo img {
 	height: 250px;
 	width: 250px;
-}
-
-@media screen and (max-width: 768px) {
-	.logo {
-		visibility: hidden;
-		top: 0px;
-		left: 0px;
-	}
 }
 
 /* Main Slideshow */
@@ -234,6 +204,7 @@ p {
 
 }
 
+/* Welcome Panel */
 .welcome-panel {
 	padding-left: 30px;
 	padding-right: 30px;
@@ -246,16 +217,11 @@ p {
 
 .welcome-panel h1 {
 	text-transform: uppercase;
-	font-size: 80px;
+	font-size: 75px;
 	font-family: 'Oswald', sans-serif;
 }
 
-@media screen and (max-width: 475px) {
-	.welcome-panel h1 {
-		font-size: 24px;
-	}
-}
-
+/* Social Panel */
 .social-panel h1 {
 	text-transform: uppercase;
 	margin-top: 10px;
@@ -280,19 +246,7 @@ p {
 	opacity: 1.0;
 }
 
-@media screen and (max-width: 1110px) {
-	.social-tab {
-		width: 100px;
-		height: 100px;
-	}
-
-	.social-tab:hover {
-		width: 110px;
-		height: 110px;
-		opacity: 1.0;
-	}
-}
-
+/* Restaurant Panel */
 .restaurant-panel p {
 	text-align: left;
 	font-size: 15px;
