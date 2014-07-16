@@ -187,7 +187,7 @@ p {
 
 /* Main Content Pane */
 .content-pane {
-	position: absolute;
+	position: relative;
 	width: 80%;
 	text-align: center;
 	margin-left: 10%;
@@ -305,10 +305,14 @@ p {
 }
 
 footer {
-	width: 120%;
+	width: 100%;
 	height: 90px;
 	background-color: rgba(4, 10, 73, 0.9);
 	position: absolute;
-	margin-top: 20px;
-	margin-left: -10%;
+	margin-top: 40px;
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+	font-size: 18px;
+	text-transform: uppercase;
 }
