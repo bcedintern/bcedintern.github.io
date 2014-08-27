@@ -21,7 +21,7 @@ p {
 	font-family: 'Oswald', sans-serif;
 	font-size: 60px;
 	margin-bottom: 5px;
-	color: #f9da24;
+	color: #ffffff;
 	float: right;
 }
 
@@ -32,12 +32,20 @@ p {
 	}
 }
 
+@media (max-width: 420px) {
+	.banner h1 {
+		font-size: 30px;
+		padding-top: 20px;
+	}
+}
+
+
 .banner a:hover {
 	text-decoration: none;
 }
 
 .banner h1:hover {
-	color: #ffffff;
+	color: #f9da24;
 }
 
 /* Main Slideshow */
@@ -178,6 +186,7 @@ p {
 	}
 }
 
+/* Connect Row */
 .connect {
 	text-align: center;
 }
@@ -186,4 +195,46 @@ p {
 	text-transform: uppercase;
 	font-family: 'Oswald', sans-serif;
 	font-size: 65px;
+}
+
+@media (max-width: 1200px) {
+	.connect h1 {
+		font-size: 45px;
+	}
+}
+
+.connect h6 {
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 28px;
+}
+
+
+@media (max-width: 1000px) {
+	.connect {
+		width: 0px;
+		height: 0px;
+		visibility: hidden;
+	}
+}
+
+.social-tab {
+	opacity: 0.8;
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+     
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+    overflow:hidden;
+ }  
+ 
+.social-tab:hover {
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg);  
+	opacity: 1.0;
 }
