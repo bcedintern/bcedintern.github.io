@@ -184,7 +184,7 @@ p {
 	text-align: center;
 }
 
-.welcome h1 {
+.welcome h1, .calendar h1 {
 	text-transform: uppercase;
 	font-size: 80px;
 	font-family: 'Oswald', sans-serif;
@@ -195,7 +195,7 @@ p {
 }
 
 @media (max-width: 1200px) {
-	.welcome h1 {
+	.welcome h1, .calendar h1 {
 		font-size: 58px;
 	}
 }
@@ -268,4 +268,8 @@ p {
 	margin-left: 10%;
 	height: 400px;
 	margin-bottom: 10px;
+}
+
+.calendar {
+	text-align: center;
 }
