@@ -13,7 +13,7 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="assets/css/homepage.css" rel="stylesheet">
+    <link href="assets/css/base.css" rel="stylesheet">
 
     <!-- Icons -->
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -137,10 +137,11 @@
     <!-- Empty Blue Bar -->
     <div class = "empty-bar"></div>
 
-    <!-- Homepage Content -->
+    <!-- Page Content -->
     <div class = "container content">
-      <!-- Welcome Pane -->
-      <div class = "welcome row">
+
+      <!-- Title Pane -->
+      <div class = "title row">
         <div class = "col-md-12">
           <h1>Welcome to Bergen County</h1><hr>
           <p>Home to nearly 200 arts and history organizations, 9,000 acres of parkland, and a variety of shopping and entertainment destinations, Bergen County is a great place to explore on your next vacation. Whether you’re looking for an outdoor adventure, a unique shopping experience, or a chance to view American history and culture from a first-hand perspective, you will find exactly what you’re looking for in Bergen County.</p>
@@ -148,102 +149,6 @@
         </div>
       </div>
 
-      <!-- Social Pane -->
-      <div class = "connect row">
-        <div class = "col-md-6">
-          <h1>Connect With Us!</h1><hr>
-          <a class="twitter-timeline" href="https://twitter.com/bergencountynj" data-widget-id="504800960946778113">Tweets by @bergencountynj</a>
-        </div>
-
-        <div class = "col-md-6 social-bar"> 
-          <div class = "row">
-            <div class = "col-md-6"> 
-              <h6>Bergen On Facebook</h6>
-              <a href=""><img src="assets/img/facebook-icon.png" class="img-responsive img-circle social-tab" alt="Facebook Icon"></a>
-            </div>
-
-            <div class = "col-md-6">
-              <h6>Bergen On Twitter</h6>
-              <a href=""><img src="assets/img/twitter-icon.png" class="img-responsive img-circle social-tab" alt="Twitter Icon"></a>    
-            </div>  
-          </div>
-
-          <hr>
-          
-          <div class = "row">
-            <div class = "col-md-3 text-right">
-              <h5>Check<br>Out</h5>
-              <img src="assets/img/record.jpg" class="img-responsive" alt="Twitter Icon">
-              <h5>2014<br>Dine<br>Out<br>Guide</h5>
-            </div>  
-
-            <div class = "col-md-9"> 
-              <a href=""><img src="http://i.imgur.com/Fboi6fe.jpg" class="img-responsive grayscale dine" alt="Twitter Icon"></a>
-            </div>
-          </div>
-        </div>
-        <hr>
-      </div>
-
-
-
-
-
-      <!-- Restaurant Review Pane Start -->
-      <div class = "restaurant row">
-        <div class = "col-md-6">
-          <img src="assets/img/record.jpg" class="img-responsive" alt="Twitter Icon">
-          <h1>Restaurant of the Week</h1><hr>
-          <!-- Restaurant Pictures -->
-          <div class="restaurant-slideshow">
-            <div>
-              <img src="http://www.northjersey.com/polopoly_fs/1.1049909.1405074496!/fileImage/httpImage/image.jpg_gen/derivatives/landscape_300/071114-f-dine1-40p.jpg" >
-            </div>
-            <div>
-              <img src="http://www.northjersey.com/polopoly_fs/1.1049910.1405074437!/fileImage/httpImage/image.jpg_gen/derivatives/landscape_300/071114-f-dinequinoa-50p.jpg" >
-            </div>
-            <div>
-              <img src="http://www.northjersey.com/polopoly_fs/1.1049908.1405074608!/fileImage/httpImage/image.jpg_gen/derivatives/landscape_300/071114-f-dine2-40p.jpg">
-            </div>
-          </div>
-        </div>
-
-        <div class = "col-md-6">
-          <!-- Restaurant Web Site --> 
-          <h2><a href="#"><b>The Park West Tavern</b></a></h2>
-          <!-- Article Link -->
-          <h4><a href="">Read Entire Review</a></h4><br>
-
-          <p><b>Food: </b>Upscale New American, much of it more formal than the setting.</p>
-          <p><b>Ambience: </b>Busy tavern and family restaurant.</p>
-          <p><b>Value: </b>In line with the ingredients, though only sometimes with the service. Appetizers $5 to $16, entrées $14 to $44.<p>
-          <p><b>Would be Good For: </b>Fine-dining dinner in laid-back setting.</p>
-          <p><b>Recommended Dishes: </b>Sautéed Maine diver scallops, crispy-skin Atlantic salmon, chocolate bar dessert, strawberry shortcake.</p>
-          <p><b>Hours: </b>11:30 a.m. to 10 p.m. daily; bar open until 12:30 a.m. daily.</p>
-          <p><b>Liquor/Wine: </b>An extensive and thoughtfully selected full bar, beer and wine selection.</p>
-          <p><b>Reservations: </b>Recommended, and available on opentable.com.</p>
-          <p><b>Accommodations for children: </b>Menu</p>
-          <p><b>Dress: </b>Smart Casual</p>
-          <p><b>Takeout: </b>Yes</p><br>
-          <h6><a href="">Read Entire Review</a></h6>
-        </div><hr>
-      </div>
-      <!-- Restaurant Review Pane End -->
-
-
-
-
-
-
-
-
-      <!-- Calendar Pane -->
-      <div class = "calendar row">
-        <div class = "row">
-          <a href = ""><h1>Upcoming Events</h1></a><hr>
-          <div id="upto-calendar-container-1GHOKO" class="upto-calendar-plugin"></div><hr>
-        </div>
-      </div>
 
     </div>
 
@@ -261,15 +166,8 @@
     <!-- Slideshow Script -->
     <script>$(".slideshow > div:gt(0)").hide();setInterval(function(){$('.slideshow > div:first').fadeOut(500).next().fadeIn(500).end().appendTo('.slideshow');},7000);</script>
 
-    <!-- Restaurant Slideshow -->
-    <script>$(".restaurant-slideshow > div:gt(0)").hide();setInterval(function(){$('.restaurant-slideshow > div:first').fadeOut(500).next().fadeIn(500).end().appendTo('.restaurant-slideshow');},7000);</script>
-
-    <!-- Twitter Script --> 
-    <script>
-    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-    <!-- Calendar Script -->
-    <script>!function(c,b,a){function d(h){var e=document.getElementById("upto-calendar-container-"+c),f=document.createElement("SCRIPT"),g="http://upto.com/js/embed.js";f.onreadystatechange=function(){if(f.readyState==="loaded"||f.readyState==="complete"){f.onreadystatechange=null;h()}};f.onload=function(){h()};f.setAttribute("src",g);e.parentNode.insertBefore(f,e)}d(function(){upto.init(c,b,a)})}("1GHOKO",["cZdO"],{"template":"3"});</script>
+    <!-- Content Slideshow -->
+    <script>$(".content-slideshow > div:gt(0)").hide();setInterval(function(){$('.content-slideshow > div:first').fadeOut(500).next().fadeIn(500).end().appendTo('.restaurant-slideshow');},7000);</script>
   </body>
 
 </html>

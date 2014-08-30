@@ -3,19 +3,6 @@ hr {
 	width: 90%;
 }
 
-.grayscale{ 
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    filter: gray;
-    -webkit-transition: all .6s ease;
-}
-
-.grayscale:hover { 
-    filter: grayscale(0%);
-    -webkit-filter: grayscale(0%);
-    filter: none;
-}
-
 /* Banner */
 .banner {
 	height: 100px;
@@ -171,114 +158,35 @@ hr {
 }
 
 /* Welcome Row */
-.welcome {
+.title {
 	text-align: center;
 }
 
-.welcome h1, .calendar h1 {
+.title h1 {
 	text-transform: uppercase;
 	font-size: 80px;
 	font-family: 'Oswald', sans-serif;
 }
 
-.welcome p {
+.title p {
 	font-family: Lato, sans-serif;
 	font-size: 18px;
 }
 
 @media (max-width: 1200px) {
-	.welcome h1, .calendar h1 {
+	.title h1 {
 		font-size: 58px;
 	}
 }
 
 @media (max-width: 768px) {
-	.welcome p {
+	.title p {
 		font-size: 12px;
 	}
 }
 
-/* Connect Row */
-.connect {
-	text-align: center;
-}
-
-.connect h1 {
-	font-size: 65px;
-}
-
-@media (max-width: 1200px) {
-	.connect h1 {
-		font-size: 45px;
-	}
-}
-
-.connect h6 {
-	font-size: 28px;
-}
-
-.connect h5 {
-	font-size: 44px;
-}
-
-.connect h1, .connect h6, .connect h5 {
-	text-transform: uppercase;
-	font-family: 'Oswald', sans-serif;
-}
-
-@media (max-width: 1000px) {
-	.social-bar {
-		width: 0px;
-		height: 0px;
-		visibility: hidden;
-	}
-}
-
-.social-tab {
-	opacity: 0.8;
-    -webkit-transition-duration: 0.8s;
-    -moz-transition-duration: 0.8s;
-    -o-transition-duration: 0.8s;
-    transition-duration: 0.8s;
-     
-    -webkit-transition-property: -webkit-transform;
-    -moz-transition-property: -moz-transform;
-    -o-transition-property: -o-transform;
-    transition-property: transform;
-    overflow:hidden;
- }  
- 
-.social-tab:hover {
-    -webkit-transform:rotate(360deg);
-    -moz-transform:rotate(360deg);
-    -o-transform:rotate(360deg);  
-	opacity: 1.0;
-}
-
-.dine {
-	width: 75%;
-	margin-left: 10%;
-	height: 400px;
-	margin-bottom: 10px;
-}
-
-.restaurant h1 {
-	text-transform: uppercase;
-	text-align: center;
-	font-family: 'Oswald', sans-serif;
-	font-size: 48px;
-}
-
-.restaurant p {
-	font-size: 16px;
-}
-
-.restaurant h2  {
-	font-size: 45px;
-}
-
-/* Restaurant Slideshow */
-.restaurant-slideshow { 
+/* Slideshow */
+.content-slideshow { 
     position: relative; 
     margin: 25px auto;
     width: 100%; 
@@ -286,19 +194,15 @@ hr {
     box-shadow: 0 0 20px rgba(0,0,0,0.4); 
 }
 
-.restaurant-slideshow div { 
+.content-slideshow div { 
     position: absolute; 
     width: 100%;
     padding: 2%;
 }
 
-.restaurant-slideshow img { 
+.content-slideshow img { 
     width: 100%;
     height: 290px;
-}
-
-.calendar {
-	text-align: center;
 }
 
 footer {
