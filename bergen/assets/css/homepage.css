@@ -90,8 +90,13 @@ hr {
 	background-color: rgba(4, 10, 73, 0.9);
 	box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.78);
 	font-family: 'Oswald', sans-serif;
-	font-size: 14px;
+	font-size: 12px;
 	z-index: 1000;
+	text-transform: uppercase;
+}
+
+.nav li a {
+	padding: 10px 11px;
 }
 
 .navbar .navbar-nav li a {
@@ -273,6 +278,14 @@ hr {
 	font-size: 48px;
 }
 
+.restaurant p {
+	font-size: 16px;
+}
+
+.restaurant h2  {
+	font-size: 45px;
+}
+
 /* Restaurant Slideshow */
 .restaurant-slideshow { 
     position: relative; 
@@ -295,4 +308,13 @@ hr {
 
 .calendar {
 	text-align: center;
+}
+
+footer {
+	height: 75px;
+	padding-top: 10px;
+	text-align: center;
+	background-color: rgba(4, 10, 73, 0.9);
+	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.78);
+	color: white;
 }
