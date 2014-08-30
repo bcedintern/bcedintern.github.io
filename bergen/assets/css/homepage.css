@@ -3,10 +3,6 @@ hr {
 	width: 90%;
 }
 
-p {
-	font-family: 'Lato', sans-serif;
-}
-
 .grayscale{ 
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
@@ -270,6 +266,13 @@ p {
 	margin-bottom: 10px;
 }
 
+.restaurant h1 {
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 48px;
+}
+
 /* Restaurant Slideshow */
 .restaurant-slideshow { 
     position: relative; 
@@ -289,6 +292,7 @@ p {
     width: 100%;
     height: 290px;
 }
+
 .calendar {
 	text-align: center;
 }
