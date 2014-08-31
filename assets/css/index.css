@@ -89,13 +89,13 @@ hr {
 	background-color: rgba(4, 10, 73, 0.9);
 	box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.78);
 	font-family: 'Oswald', sans-serif;
-	font-size: 12px;
+	font-size: 13px;
 	z-index: 1000;
 	text-transform: uppercase;
 }
 
 .nav li a {
-	padding: 10px 11px;
+	padding: 10px 10px;
 }
 
 .navbar .navbar-nav li a {
@@ -175,7 +175,7 @@ hr {
 	text-align: center;
 }
 
-.welcome h1, .calendar h1 {
+.welcome h1 {
 	text-transform: uppercase;
 	font-size: 80px;
 	font-family: 'Oswald', sans-serif;
@@ -187,7 +187,7 @@ hr {
 }
 
 @media (max-width: 1200px) {
-	.welcome h1, .calendar h1 {
+	.welcome h1 {
 		font-size: 58px;
 	}
 }
@@ -234,6 +234,7 @@ hr {
 	}
 }
 
+/* Social Tabs */
 .social-tab {
 	opacity: 0.8;
     -webkit-transition-duration: 0.8s;
@@ -255,6 +256,7 @@ hr {
 	opacity: 1.0;
 }
 
+/* Dine Magazine */
 .dine {
 	width: 75%;
 	margin-left: 10%;
@@ -262,6 +264,7 @@ hr {
 	margin-bottom: 10px;
 }
 
+/* Restaurant Row */
 .restaurant h1 {
 	text-transform: uppercase;
 	text-align: center;
@@ -273,8 +276,9 @@ hr {
 	font-size: 16px;
 }
 
-.restaurant h2  {
+.restaurant h2  a {
 	font-size: 45px;
+	color: black;
 }
 
 /* Restaurant Slideshow */
@@ -297,13 +301,33 @@ hr {
     height: 290px;
 }
 
+.record {
+	max-width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Calendar Row */
+.calendar h1 {
+	text-transform: uppercase;
+	font-size: 80px;
+	font-family: 'Oswald', sans-serif;
+}
+
+@media (max-width: 1200px) {
+	.calendar h1 {
+		font-size: 58px;
+	}
+}
+
 .calendar {
 	text-align: center;
 }
 
+/* Footer */
 footer {
-	height: 75px;
-	padding-top: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	text-align: center;
 	background-color: rgba(4, 10, 73, 0.9);
 	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.78);

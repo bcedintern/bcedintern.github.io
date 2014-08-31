@@ -76,13 +76,13 @@ hr {
 	background-color: rgba(4, 10, 73, 0.9);
 	box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.78);
 	font-family: 'Oswald', sans-serif;
-	font-size: 12px;
+	font-size: 13px;
 	z-index: 1000;
 	text-transform: uppercase;
 }
 
 .nav li a {
-	padding: 10px 11px;
+	padding: 10px 10px;
 }
 
 .navbar .navbar-nav li a {
@@ -164,18 +164,17 @@ hr {
 
 .title h1 {
 	text-transform: uppercase;
-	font-size: 80px;
+	font-size: 60px;
 	font-family: 'Oswald', sans-serif;
 }
 
 .title p {
-	font-family: Lato, sans-serif;
-	font-size: 18px;
+	font-size: 14px;
 }
 
 @media (max-width: 1200px) {
 	.title h1 {
-		font-size: 58px;
+		font-size: 40px;
 	}
 }
 
@@ -185,29 +184,14 @@ hr {
 	}
 }
 
-/* Slideshow */
-.content-slideshow { 
-    position: relative; 
-    margin: 25px auto;
-    width: 100%; 
-    height: 310px; 
-    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+.main {
+	padding-bottom: 25px;
 }
 
-.content-slideshow div { 
-    position: absolute; 
-    width: 100%;
-    padding: 2%;
-}
-
-.content-slideshow img { 
-    width: 100%;
-    height: 290px;
-}
-
+/* Footer */
 footer {
-	height: 75px;
-	padding-top: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	text-align: center;
 	background-color: rgba(4, 10, 73, 0.9);
 	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.78);
