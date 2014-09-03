@@ -3,6 +3,10 @@ hr {
 	width: 90%;
 }
 
+body {
+	background: url("../img/bg.jpg") no-repeat fixed ;
+}
+
 /* Banner */
 .banner {
 	height: 100px;
@@ -154,7 +158,7 @@ hr {
 
 @media (max-width: 1199px) and (min-width: 768px) {
 	.content {
-		margin-top: 325px;
+		margin-top: 300px;
 	}
 }
 

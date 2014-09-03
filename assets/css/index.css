@@ -3,6 +3,10 @@ hr {
 	width: 90%;
 }
 
+body {
+	background: url("../img/bg.jpg") no-repeat fixed ;
+}
+
 .grayscale{ 
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
@@ -166,7 +170,7 @@ hr {
 
 @media (max-width: 1199px) and (min-width: 768px) {
 	.content {
-		margin-top: 325px;
+		margin-top: 300px;
 	}
 }
 
@@ -318,6 +322,10 @@ hr {
 	.calendar h1 {
 		font-size: 58px;
 	}
+}
+
+.calendar h3 {
+	font-family: 'Oswald', sans-serif;
 }
 
 .calendar {
