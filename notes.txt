@@ -1,6 +1,17 @@
-Upto
+Upto:
 
-Google Account
+Intern Account
+<script>!function(c,b,a){function d(h){var e=document.getElementById("upto-calendar-container-"+c),f=document.createElement("SCRIPT"),g="http://upto.com/js/embed.js";f.onreadystatechange=function(){if(f.readyState==="loaded"||f.readyState==="complete"){f.onreadystatechange=null;h()}};f.onload=function(){h()};f.setAttribute("src",g);e.parentNode.insertBefore(f,e)}d(function(){upto.init(c,b,a)})}("1GHOKO",["cZdO"],{"template":"     3     "});</script>
+
+New Account
+<script>!function(c,b,a){function d(h){var e=document.getElementById("upto-calendar-container-"+c),f=document.createElement("SCRIPT"),g="	http://upto.com/js/plugin.js";f.onreadystatechange=function(){if(f.readyState==="loaded"||f.readyState==="complete"){f.onreadystatechange=null;h()}};f.onload=function(){h()};f.setAttribute("src",g);e.parentNode.insertBefore(f,e)}d(function(){upto.init(c)})}("BLOO");</script></div>
+
+Unfortunately, Upto has changed their script that free users can no longer have more than 1 calendar type
+
+Login Email: tmeans@co.bergen.nj.us
+Password: Bergen1!
+
+Google Account:
 
 Google Analytics will allow you to track traffic to your site. In order to track site traffic however, the site must first be live.
 
