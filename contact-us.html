@@ -135,76 +135,102 @@
         </div>
 
         <div class = "col-md-7">
-    			<form class="form-horizontal">
+            <!--<form action="tmeans@co.bergen.nj.us" method="POST" enctype="multipart/form-data" name="EmailTestForm">
+
+
+            Your Name:<br>
+            <input type="text" size="20" name="VisitorName"><br><br>
+
+            Your Comment:<br>
+            <textarea name="VisitorComment" rows="4" cols="20">
+            </textarea><br><br>
+
+            <input type="submit" value="Email This Form">
+
+            </form>
+-->
+
+
+
+    			<form action="mailto:tmeans@co.bergen.nj.us" method="POST" enctype="multipart/form-data" name="EventForm"class="form-horizontal">
     			  <fieldset>
     			    <legend>Submit Event</legend>
     			    <div class="form-group">
-    			      <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+    			      <label for="eventName" class="col-lg-2 control-label">Name</label>
     			      <div class="col-lg-10">
-    			        <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+    			        <input type="text" class="form-control" name="EventName" placeholder="Name of Event">
     			      </div>
     			    </div>
+
+                    <div class="form-group">
+                      <label for="eventLocation" class="col-lg-2 control-label">Location</label>
+                      <div class="col-lg-10">
+                        <input type="text" class="form-control" name="EventLocation" placeholder="Location of Event">
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="eventDate" class="col-lg-2 control-label">Date</label>
+                      <div class="col-lg-10">
+                        <input type="text" class="form-control" name="EventDate" placeholder="Month Date Year Time-Time">
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="eventImage" class="col-lg-2 control-label">Image URL</label>
+                      <div class="col-lg-10">
+                        <input type="text" class="form-control" name="EventImageURL" placeholder="Insert URL of image (www.example.com/image.jpg)">
+                      </div>
+                    </div>
+
     			    <div class="form-group">
-    			      <label for="inputPassword" class="col-lg-2 control-label">Password</label>
+    			      <label for="eventDescription" class="col-lg-2 control-label">Description</label>
     			      <div class="col-lg-10">
-    			        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
-    			        <div class="checkbox">
-    			          <label>
-    			            <input type="checkbox"> Checkbox
-    			          </label>
-    			        </div>
+    			        <textarea class="form-control" rows="3" name="EventDescription"></textarea>
+    			        <span class="help-block">Include Information Guests Should Know</span>
     			      </div>
     			    </div>
+
+                    <hr>
+
+                    <div class="form-group">
+                      <label for="eventContactName" class="col-lg-3 control-label">Contact Name</label>
+                      <div class="col-lg-9">
+                        <input type="text" class="form-control" name="ContactName" placeholder="First Last">
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="eventContactEmail" class="col-lg-3 control-label">Contact Email</label>
+                      <div class="col-lg-9">
+                        <input type="text" class="form-control" name="ContactEmail" placeholder="Email">
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="eventOrganization" class="col-lg-3 control-label">Organization</label>
+                      <div class="col-lg-9">
+                        <input type="text" class="form-control" name="ContactOrganization" placeholder="Organization">
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="contactPhone" class="col-lg-3 control-label">Contact Phone</label>
+                      <div class="col-lg-9">
+                        <input type="text" class="form-control" name="inputContactPhone" placeholder="Contact Phone Number">
+                      </div>
+                    </div>
+
+                    <hr>
+
     			    <div class="form-group">
-    			      <label for="textArea" class="col-lg-2 control-label">Textarea</label>
-    			      <div class="col-lg-10">
-    			        <textarea class="form-control" rows="3" id="textArea"></textarea>
-    			        <span class="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
-    			      </div>
-    			    </div>
-    			    <div class="form-group">
-    			      <label class="col-lg-2 control-label">Radios</label>
-    			      <div class="col-lg-10">
-    			        <div class="radio">
-    			          <label>
-    			            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
-    			            Option one is this
-    			          </label>
-    			        </div>
-    			        <div class="radio">
-    			          <label>
-    			            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-    			            Option two can be something else
-    			          </label>
-    			        </div>
-    			      </div>
-    			    </div>
-    			    <div class="form-group">
-    			      <label for="select" class="col-lg-2 control-label">Selects</label>
-    			      <div class="col-lg-10">
-    			        <select class="form-control" id="select">
-    			          <option>1</option>
-    			          <option>2</option>
-    			          <option>3</option>
-    			          <option>4</option>
-    			          <option>5</option>
-    			        </select>
-    			        <br>
-    			        <select multiple="" class="form-control">
-    			          <option>1</option>
-    			          <option>2</option>
-    			          <option>3</option>
-    			          <option>4</option>
-    			          <option>5</option>
-    			        </select>
-    			      </div>
-    			    </div>
-    			    <div class="form-group">
-    			      <div class="col-lg-10 col-lg-offset-2">
+    			      <div class="col-lg-10 col-lg-offset-1">
     			        <button class="btn btn-default">Cancel</button>
     			        <button type="submit" class="btn btn-primary">Submit</button>
+                        <span class="help-block">When complete, click submit and email form via Outlook</span>
     			      </div>
     			    </div>
+
     			  </fieldset>
     			</form>
         </div>
