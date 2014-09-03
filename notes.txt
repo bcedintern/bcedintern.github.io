@@ -1,5 +1,12 @@
-Shopping
 Upto
-Restaurant Explanation
-Analytics
-Space Recreation
+
+Google Account
+
+Google Analytics will allow you to track traffic to your site. In order to track site traffic however, the site must first be live.
+
+Google Account: 
+VisitBergenNJ@gmail.com
+Password: Bergen1!
+Name: Bergen County
+Gender: Female
+Birthday: January 1st, 1980
